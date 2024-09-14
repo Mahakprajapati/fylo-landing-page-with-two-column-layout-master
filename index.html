@@ -15,7 +15,8 @@
 </head>
 
 <body class="relative mx-2 font-Ral mr-3 mb-4 ">
-    <header class=" bg-white/70 backdrop-blur-sm font-Ral py-7 fixed flex justify-between items-center w-[99%] media357:px-5  media766:px-14 media766:py-11 font-bold">
+    <header
+        class=" bg-white/70 backdrop-blur-sm font-Ral py-7 fixed flex justify-between items-center w-[99%] media357:px-5  media766:px-14 media766:py-11 font-bold">
         <img class="w-[90px] media766:w-auto" src="./fylo-landing-page-with-two-column-layout-master/images/logo.svg"
             alt="logo" />
         <div class="flex items-center gap-2 media357:gap-8">
@@ -40,14 +41,14 @@
                     them wherever you need, share and collaborate with friends, family,
                     and co-workers.
                 </p>
-                <div class="mt-9 flex-col gap-4 flex media766:flex-row">
+                <form class="mt-9 flex-col gap-4 flex media766:flex-row" id="hero">
+                    <label for="email"></label>
                     <input class="rounded-[4px] border-black border-[1.5px] p-[0.4em] media803:w-[50%]"
-                        placeholder="Enter your email..." type="text" required />
-                    <button
-                        class="bg-Dark-blue text-white rounded-[4px] p-[0.4em] media803:w-[30%] hover:bg-Dark-blue/10">
-                        Get Started
-                    </button>
-                </div>
+                        placeholder="Enter your email..." type="email" id="email" name="email" required>
+                    <input
+                        class="bg-Dark-blue text-white rounded-[4px] p-[0.4em] media803:w-[30%] hover:bg-Dark-blue/10"
+                        type="submit" value="Get Started">
+                </form>
             </div>
         </section>
 
@@ -116,17 +117,20 @@
                     would be happy to help you.
                 </p>
             </div>
-            <div class="flex flex-col gap-5 w-[100%] media766:items-start media766:w-[25%]">
-                <input class="p-2 rounded-[4px] media766:w-[100%]" placeholder="email@example.com" type="text" />
-                <button class="bg-Dark-blue text-white rounded-[4px] p-2 hover:bg-Dark-blue/30 shadow-box">
-                    Get Started For Free
-                </button>
-            </div>
+
+            <form class="flex flex-col gap-5 w-[100%] media766:items-start media766:w-[25%]" id="hero">
+                <label for="email"></label>
+                <input class="p-2 rounded-[4px] media766:w-[100%]" type="email" id="email" name="email"
+                    placeholder="email@example.com" required>
+                <input class="bg-Dark-blue text-white rounded-[4px] p-2 hover:bg-Dark-blue/30 shadow-box" type="submit"
+                    value="Get Started For Free">
+            </form>
         </section>
 
-        <section class="bg-more-dark-blue py-[4.5rem] gap-8 text-white flex flex-col items-start  media766:flex-row px-8 media766:justify-evenly media766:items-center media766:px-0">
+        <section
+            class="bg-more-dark-blue py-[4.5rem] gap-8 text-white flex flex-col items-start  media766:flex-row px-8 media766:justify-evenly media766:items-center media766:px-0">
             <div class="flex gap-6 flex-col">
-                <img  src="./fylo-landing-page-with-two-column-layout-master/images/logo.svg" alt="logo" />
+                <img src="./fylo-landing-page-with-two-column-layout-master/images/logo.svg" alt="logo" />
                 <div class="flex gap-4 items-center">
                     <img src="./fylo-landing-page-with-two-column-layout-master/images/icon-phone.svg"
                         alt="icon-phone" />
