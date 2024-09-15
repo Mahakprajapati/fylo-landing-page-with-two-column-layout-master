@@ -644,6 +644,26 @@ video {
   max-width: 300px;
 }
 
+.max-w-\[50px\] {
+  max-width: 50px;
+}
+
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+
+.max-w-\[140px\] {
+  max-width: 140px;
+}
+
+.max-w-\[150px\] {
+  max-width: 150px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -932,6 +952,10 @@ video {
 
   .media766\:max-w-\[430px\] {
     max-width: 430px;
+  }
+
+  .media766\:max-w-\[150px\] {
+    max-width: 150px;
   }
 
   .media766\:grid-cols-2 {
