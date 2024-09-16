@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fylo-landing-page-with-two-column-layout-master</title>
     <link rel="stylesheet" href="output.css" />
+        
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway" />
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            .attribution { font-size: 11px; text-align: center; }
+            .attribution a { color: hsl(358, 81%, 53%); }
+          </style>
 </head>
 
 <body class="relative mx-2 font-Ral mr-3 mb-4 ">
@@ -46,7 +52,7 @@
                     <input class="rounded-[4px] border-black border-[1.5px] p-[0.4em] media803:w-[50%]"
                         placeholder="Enter your email..." type="email" id="email" name="email" required>
                     <input
-                        class="bg-Dark-blue text-white rounded-[4px] p-[0.4em] media803:w-[30%] hover:bg-Dark-blue/10"
+                        class="bg-Dark-blue text-white rounded-[4px] p-[0.4em] media803:w-[30%] hover:bg-Dark-blue/55"
                         type="submit" value="Get Started">
                 </form>
             </div>
@@ -122,7 +128,7 @@
                 <label for="email"></label>
                 <input class="p-2 rounded-[4px] media766:w-[100%]" type="email" id="email" name="email"
                     placeholder="email@example.com" required>
-                <input class="bg-Dark-blue text-white rounded-[4px] p-2 hover:bg-Dark-blue/30 shadow-box" type="submit"
+                <input class="bg-Dark-blue text-white rounded-[4px] p-2 hover:bg-Dark-blue/60  shadow-box" type="submit"
                     value="Get Started For Free">
             </form>
         </section>
@@ -141,38 +147,44 @@
                     <p>example@fylo.com</p>
                 </div>
             </div>
-            <div class="flex flex-col gap-2 self-start media766:self-end">
-                <a href="#">About Us</a>
-                <a href="#">Jobs</a>
-                <a href="#"> Press</a>
-                <a href="#">Blog</a>
+            <div class="flex flex-col gap-2 self-start media766:self-end ">
+                <a class="hover:text-Dark-blue " href="#">About Us</a>
+                <a class="hover:text-Dark-blue" href="#">Jobs</a>
+                <a class="hover:text-Dark-blue" href="#"> Press</a>
+                <a class="hover:text-Dark-blue" href="#">Blog</a>
             </div>
             <div class="flex flex-col gap-2 ">
-                <a href="#">Contact Us</a>
-                <a href="#">Terms</a>
-                <a href="#">Privacy</a>
+                <a class="hover:text-Dark-blue" href="#">Contact Us</a>
+                <a class="hover:text-Dark-blue" href="#">Terms</a>
+                <a class="hover:text-Dark-blue" href="#">Privacy</a>
             </div>
             <div class="flex gap-2 self-center justify-center items-center media766:mt-[2.5rem]  media766:self-start">
-                <a href="#">
-                    <div class="border-white solid border-[1px] rounded-full size-7  flex justify-center items-center ">
+                <a class="hover:text-Dark-blue" href="#">
+                    <div class="border-white solid border-[1px] rounded-full size-7  flex justify-center items-center  hover:border-Dark-blue">
                         <i class="fa-brands fa-square-facebook"></i>
                     </div>
                 </a>
 
-                <a href="#">
-                    <div class="border-white solid border-[1px] rounded-full size-7  flex justify-center items-center">
+                <a class="hover:text-Dark-blue" href="#">
+                    <div class="border-white solid border-[1px] rounded-full size-7  flex justify-center items-center  hover:border-Dark-blue">
                         <i class="fa-brands fa-twitter"></i>
                     </div>
                 </a>
 
-                <a href="#">
-                    <div class="border-white solid border-[1px] rounded-full size-7  flex justify-center items-center">
+                <a class="hover:text-Dark-blue" href="#">
+                    <div class="border-white solid border-[1px] rounded-full size-7  flex justify-center items-center  hover:border-Dark-blue">
                         <i class="fa-brands fa-instagram"></i>
                     </div>
                 </a>
             </div>
         </section>
     </main>
+    <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">mahak prajapati</a>.
+        </p>
+      </footer>
 </body>
 
 </html>

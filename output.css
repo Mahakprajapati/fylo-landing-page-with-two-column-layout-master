@@ -875,17 +875,27 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.hover\:border-Dark-blue:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(48 101 248 / var(--tw-border-opacity));
+}
+
 .hover\:border-cyan:hover {
   --tw-border-opacity: 1;
   border-color: hsl(170 45% 43% / var(--tw-border-opacity));
 }
 
-.hover\:bg-Dark-blue\/10:hover {
-  background-color: rgb(48 101 248 / 0.1);
+.hover\:bg-Dark-blue\/55:hover {
+  background-color: rgb(48 101 248 / 0.55);
 }
 
-.hover\:bg-Dark-blue\/30:hover {
-  background-color: rgb(48 101 248 / 0.3);
+.hover\:bg-Dark-blue\/60:hover {
+  background-color: rgb(48 101 248 / 0.6);
+}
+
+.hover\:text-Dark-blue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(48 101 248 / var(--tw-text-opacity));
 }
 
 .hover\:text-cyan:hover {
